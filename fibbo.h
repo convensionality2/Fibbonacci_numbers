@@ -1,20 +1,18 @@
 #ifndef _DLL_H_
 //#if fibbo_numbers
 #define _DLL_H_
-//static 
+ 
 int a;
-//static
- int b,c;
+int b;
 
 
  int fibbo_numbers( int l);
 
- int fibbo_numbers( int l)
+ int fibbo_numbers( int l)//function definition
 {
 
 
- //#ifndef A
- //#define A
+
  static	int current =1; 
  static	int prev=0;
  
